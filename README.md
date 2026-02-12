@@ -22,7 +22,7 @@
     * Multi-Head Attention
     * Positional Encoding
     * Encoder & Decoder Layers
-* [ ] **CNN Variants** (ResNet, etc.)
+
 
 ### 🎮 强化学习 (Reinforcement Learning)
 * [x] **Q-Learning / DQN**
@@ -30,15 +30,4 @@
 * [ ] **PPO (Proximal Policy Optimization)**
 * [ ] **A3C**
 
-### 📊 经典机器学习 (Classic ML)
-* [ ] K-Means
-* [ ] SVM
-* [ ] Decision Tree
 
-## 🚀 快速开始 (Quick Start)
-
-### 环境依赖
-```bash
-git clone [https://github.com/your-username/handwritten-ai.git](https://github.com/your-username/handwritten-ai.git)
-cd handwritten-ai
-pip install -r requirements.txt
