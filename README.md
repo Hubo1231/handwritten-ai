@@ -24,11 +24,12 @@
 handwritten-ai/
 ├── machine_learning/        # 机器学习：经典统计学习算法
 ├── deep_learning/           # 深度学习：神经网络与现代架构
+│   └── transformer/         # ✅ Transformer 已实现（encoder-decoder）
 └── reinforcement_learning/  # 强化学习：智能体与决策算法
     └── policy_gradient/     # ✅ REINFORCE 已实现
 ```
 
-> 说明：标记 ✅ 的为已实现并验证；其余为规划中的路线图 (roadmap)。
+> 说明：标记 ✅ 的为已实现并验证；🚧 为骨架已搭建、实现中；其余为规划中的路线图 (roadmap)。
 
 ## 🧩 算法路线图 (Roadmap)
 
@@ -53,7 +54,7 @@ handwritten-ai/
 * [ ] **多层感知机 (MLP)** + 反向传播 (Backpropagation)
 * [ ] **卷积神经网络 (CNN)**
 * [ ] **循环神经网络 (RNN / LSTM / GRU)**
-* [ ] **Transformer**
+* [x] **Transformer** → [`deep_learning/transformer`](deep_learning/transformer)（已实现并验证）
     * Self-Attention Mechanism
     * Multi-Head Attention
     * Positional Encoding
